@@ -1,0 +1,17 @@
+list =[45,474.8448,34737,4848]
+print (list)
+print (len(list))
+print (max(list))
+print (min(list))
+list.append(24)
+print (list)
+print (list.count(4848))
+list.reverse()
+print (list)
+list.sort()
+print (list)
+tup = {'sasj',32323, 'cucu'}
+print (tup)
+print (len(tup))
+print (max(tup))
+print (min(tup))

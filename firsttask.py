@@ -1,0 +1,10 @@
+n=input("enter user name")
+height= float(input("\n\n enter the height in meter"))
+weight=float(input("\n\n enter the weight in kg"))
+c = weight / (height**2) 
+print ("This  is body mas index:",c)
+fp=open("D:\\New folder\\firsttask.txt","a+")
+fp.write("%s:"%n)
+fp.write("%s:"%c)
+fp.write("\n\n")
+fp.close
